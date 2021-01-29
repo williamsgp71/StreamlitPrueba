@@ -43,11 +43,11 @@ if st.checkbox('Show Map'):
     st.map(map_data)
 
 
-option = st.sidebar.selectbox(
+option = st.selectbox(
     'Which number do you like best?',
      df['first column'])
 
-'You selected:', option
+'You selected: ', option
 
 
 left_column, right_column = st.beta_columns(2)
